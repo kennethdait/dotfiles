@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# ~/.bash_profile
+
+echo "[sourced]: ~/.bash_profile"
+
+[[ -r ~/.bashrc ]] && . ~/.bashrc
+
